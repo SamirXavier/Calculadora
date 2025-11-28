@@ -43,7 +43,7 @@ class Calculadora():
         except Exception as e:
             print(f"Erro ao calcular a derivada: {e}")
 
-    def calcular_integral(f, x):
+    def calcular_integral(self,f, x):
         tipo = input("Integral 'Definida' (d) ou 'Indefinida' (i)? [padrão=i]: ").lower()
         
         if tipo == 'd':
